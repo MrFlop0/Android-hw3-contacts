@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Contact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/contactImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/contact_image"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp">
+
+        <TextView
+            android:id="@+id/nameField"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/nameColor"
+            />
+
+        <TextView
+            android:id="@+id/phoneField"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15sp"
+            android:textColor="@color/phoneColor"
+            />
+    </LinearLayout>
+
+</LinearLayout>

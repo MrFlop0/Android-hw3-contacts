@@ -9,14 +9,14 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="ApplicationThemeColor">#FF000000</color>
-    <color name="nameColor">#FF000000</color>
+    <color name="ApplicationThemeColor">#FFFFFFFF</color>
+    <color name="nameColor">#FFFFFFFF</color>
     <color name="phoneColor">#808080</color>
-    <color name="mainBackground">#FFFFFFFF</color>
-    <color name="random1">#FED6BC</color>
-    <color name="random2">#DEF7FE</color>
-    <color name="random4">#FDEED9</color>
-    <color name="random5">#C6D8FF</color>
-    <color name="random6">#FFFADD</color>
-    <color name="random7">#C3FBD8</color>
+    <color name="mainBackground">#FF000000</color>
+    <color name="random1">#BFA18E</color>
+    <color name="random2">#87979C</color>
+    <color name="random4">#988F81</color>
+    <color name="random5">#768198</color>
+    <color name="random6">#9E9A87</color>
+    <color name="random7">#86AC94</color>
 </resources>
