@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     private fun getStarted() {
         recycler = findViewById(R.id.recyclerView)
         recycler.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, true)
-        recycler.adapter = getAdapter()
+        recycler.adapter = ContactAdapter(this, getContacts())
 
         if ((recycler.adapter as ContactAdapter).itemCount > 0) {
             Toast.makeText(
@@ -38,11 +38,6 @@ class MainActivity : AppCompatActivity() {
             ).show()
         }
     }
-
-    private fun getAdapter(): ContactAdapter {
-        return ContactAdapter(this, getContacts())
-    }
-
 
     private fun getContacts(): List<Contact> {
         return if (checkSelfPermission(this, READ_CONTACTS) != PERMISSION_GRANTED) {
