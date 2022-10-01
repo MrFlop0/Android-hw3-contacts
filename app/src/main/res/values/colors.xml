@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="random1">#FED6BC</color>
+    <color name="random2">#DEF7FE</color>
+    <color name="random4">#FDEED9</color>
+    <color name="random5">#C6D8FF</color>
+    <color name="random6">#FFFADD</color>
+    <color name="random7">#C3FBD8</color>
 </resources>
